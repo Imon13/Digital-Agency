@@ -14,3 +14,37 @@
     list-style: none;
     gap: 10px;
 }
+.banner-container{
+    height: 100vh;
+    background-image: url(asset/image/background.jpg),
+    linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
