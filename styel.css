@@ -48,3 +48,60 @@
     background-color: red;
     color: white;
 }
+.service-container{
+    height: 100vh;
+   background-image: url(asset/image/footer-bg.png),
+   linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9));
+   background-position: center;
+   background-size: cover;
+   background-blend-mode: overlay;
+   color: white;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   padding: 20px;
+}
+.first-two-box{
+    display: flex;
+    gap: 5px;
+}
+.second-two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+}
+.service-description{
+    width: 50%;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
